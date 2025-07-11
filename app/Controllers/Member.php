@@ -1,7 +1,7 @@
 <?php namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
-use App\Models\BookingModel;
+use App\Models\MemberModel;
 
 class Member extends ResourceController
 {
