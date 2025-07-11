@@ -1,0 +1,40 @@
+CRITICAL - 2025-07-05 05:43:53 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: api/booking]
+in APPPATH\Controllers\Booking.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\UAS PPM\\AdityaNugroho_UAS_PPM\\public\\index.php')
+CRITICAL - 2025-07-05 05:44:09 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: booking]
+in APPPATH\Controllers\Booking.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\UAS PPM\\AdityaNugroho_UAS_PPM\\public\\index.php')
+CRITICAL - 2025-07-05 05:51:01 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: api/booking]
+in APPPATH\Controllers\Booking.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\UAS PPM\\AdityaNugroho_UAS_PPM\\public\\index.php')
+CRITICAL - 2025-07-05 05:53:08 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: api/booking]
+in APPPATH\Controllers\Booking.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\UAS PPM\\AdityaNugroho_UAS_PPM\\public\\index.php')

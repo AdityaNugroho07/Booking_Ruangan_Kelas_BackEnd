@@ -1,0 +1,11 @@
+CRITICAL - 2025-06-20 02:08:27 --> ErrorException: Undefined property: stdClass::$nama_obat
+[Method: PUT, Route: api/obat/update/3]
+in APPPATH\Controllers\obat.php on line 51.
+ 1 APPPATH\Controllers\obat.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_obat', 'C:\\laragon\\www\\frontend-uas-230302073\\AdityaNugroho_UAS_PBF\\app\\Controllers\\obat.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Obat->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obat))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\frontend-uas-230302073\\AdityaNugroho_UAS_PBF\\public\\index.php')
